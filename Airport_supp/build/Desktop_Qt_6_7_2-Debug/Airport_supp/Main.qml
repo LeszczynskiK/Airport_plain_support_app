@@ -1,14 +1,18 @@
-import QtQuick
+import QtQuick 2.15
+import QtQuick.Controls 2.15
 
-Window {
+ApplicationWindow {
+    visible: true
     width: 1280
     height: 800
-    visible: true
     title: qsTr("Airport simulation")
 
-    Image {//background set
-        anchors.fill: parent//fill your parent(so will WIndow)
-        source: "qrc:/prefix1/background.png" //this is from resources.qrc
-        fillMode: Image.PreserveAspectCrop//scale it with size keeping(save scale of width and height)
+    Image {
+        source: "file:///home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/background.png"
+
+
+        anchors.fill: parent
+        fillMode: Image.PreserveAspectCrop
     }
+
 }

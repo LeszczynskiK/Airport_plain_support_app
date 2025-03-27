@@ -1,0 +1,5 @@
+module Airport_supp
+typeinfo appAirport_supp.qmltypes
+prefer :/qt/qml/Airport_supp/
+Main 1.0 Main.qml
+

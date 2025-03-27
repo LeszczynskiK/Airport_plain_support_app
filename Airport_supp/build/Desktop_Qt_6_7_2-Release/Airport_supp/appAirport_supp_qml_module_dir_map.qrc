@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Airport_supp">/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Release/Airport_supp</file>
+
+  </qresource>
+</RCC>
