@@ -15,11 +15,13 @@ qt_standard_project_setup(REQUIRES 6.5)
 set(SOURCES
     main.cpp
     runwaymanager.cpp
+    inflightassistance.cpp
 )
 
 # Heading files
 set(HEADERS
     runwaymanager.h
+    inflightassistance.h
 )
 
 qt_add_executable(appAirport_supp

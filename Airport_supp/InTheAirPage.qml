@@ -7,11 +7,58 @@ Item {
         color: "#87ceeb" // Sky blue background
     }
 
-    Text {
-        anchors.centerIn: parent // Center text in the parent item
-        text: "In the Air Page" // Page title
-        font.pixelSize: 40 // Font size set to 40
-        color: "#151818" // Text color
+    Column {
+        x: 50
+        y: 100
+        spacing: 20
+
+        Text {
+            text: "In-Flight Assistance"
+            font.pixelSize: 36
+            color: "#151818"
+        }
+
+        Row {
+            spacing: 5 // Small spacing between the label and the value
+            Text {
+                text: "Altitude: "
+                font.pixelSize: 30
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: inFlightAssistance.altitude + " m"
+                font.pixelSize: 32
+                color: "#FF0000" // Red color for the value
+            }
+        }
+
+        Row {
+            spacing: 5 // Small spacing between the label and the value
+            Text {
+                text: "Speed: "
+                font.pixelSize: 30
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: inFlightAssistance.speed + " km/h"
+                font.pixelSize: 32
+                color: "#FF0000" // Red color for the value
+            }
+        }
+
+        Row {
+            spacing: 5 // Small spacing between the label and the value
+            Text {
+                text: "Heading: "
+                font.pixelSize: 30
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: inFlightAssistance.heading
+                font.pixelSize: 32
+                color: "#FF0000" // Red color for the value
+            }
+        }
     }
 
     Button {
