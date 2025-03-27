@@ -29,3 +29,8 @@ Features:
   
 !!!  
 This project is part of a theoretical study and does not reflect real aviation systems.  
+
+Tech-stack:
+C++ 14
+QT Quick (QML)
+CMake (to build)

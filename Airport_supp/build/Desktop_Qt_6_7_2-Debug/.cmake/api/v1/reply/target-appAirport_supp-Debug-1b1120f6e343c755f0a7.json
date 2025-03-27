@@ -77,7 +77,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 11,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
@@ -101,19 +101,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 38,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 33,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
 				"command" : 8,
 				"file" : 1,
-				"line" : 7,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
@@ -149,7 +149,7 @@
 			{
 				"command" : 10,
 				"file" : 1,
-				"line" : 15,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -754,6 +754,7 @@
 			{
 				"backtraces" : 
 				[
+					47,
 					47
 				],
 				"standard" : "17"
@@ -891,15 +892,15 @@
 			"sourceIndexes" : 
 			[
 				0,
-				12,
-				21,
+				13,
 				22,
 				23,
 				24,
 				25,
 				26,
 				27,
-				28
+				28,
+				29
 			]
 		},
 		{
@@ -922,21 +923,22 @@
 				5,
 				9,
 				10,
-				11
+				11,
+				12
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				13,
 				14,
 				15,
 				16,
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		}
 	],
@@ -1017,6 +1019,11 @@
 			"backtrace" : 93,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appAirport_supp_raw_qml_0.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 93,
+			"path" : "resources.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{

@@ -189,7 +189,7 @@ build all_qmllint_module: phony appAirport_supp_qmllint_module
 #############################################
 # Utility command for appAirport_supp_tooling
 
-build appAirport_supp_tooling: phony Airport_supp/Main.qml
+build appAirport_supp_tooling: phony Airport_supp/Main.qml Airport_supp/resources.qrc
 
 
 #############################################
@@ -324,7 +324,7 @@ build .rcc/qmlcache/appAirport_supp_Main_qml.cpp | ${cmake_ninja_workdir}.rcc/qm
 #############################################
 # Custom command for .qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml .qt/rcc/appAirport_supp_raw_qml_0.qrc /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/rcc || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
+build .qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/resources.qrc .qt/rcc/appAirport_supp_raw_qml_0.qrc /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/rcc || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
   COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug && /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/rcc --output /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp --name appAirport_supp_raw_qml_0 /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appAirport_supp_raw_qml_0.qrc --no-zstd
   DESC = Running rcc for resource appAirport_supp_raw_qml_0
   restat = 1
@@ -383,6 +383,15 @@ build CMakeFiles/appAirport_supp_qmllint_module | ${cmake_ninja_workdir}CMakeFil
 build Airport_supp/Main.qml | ${cmake_ninja_workdir}Airport_supp/Main.qml: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml
   COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/Tools/CMake/bin/cmake -E copy /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/Main.qml
   DESC = Copying Main.qml to /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/Main.qml
+  restat = 1
+
+
+#############################################
+# Custom command for Airport_supp/resources.qrc
+
+build Airport_supp/resources.qrc | ${cmake_ninja_workdir}Airport_supp/resources.qrc: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/resources.qrc
+  COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/Tools/CMake/bin/cmake -E copy /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/resources.qrc /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/resources.qrc
+  DESC = Copying resources.qrc to /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/resources.qrc
   restat = 1
 
 

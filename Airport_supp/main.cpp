@@ -3,9 +3,11 @@
 
 int main(int argc, char *argv[])
 {
-    QGuiApplication app(argc, argv);
+    QGuiApplication app(argc, argv);// Create an instance of the GUI application
 
-    QQmlApplicationEngine engine;
+    QQmlApplicationEngine engine;// Create a QML engine to load the interface
+
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
