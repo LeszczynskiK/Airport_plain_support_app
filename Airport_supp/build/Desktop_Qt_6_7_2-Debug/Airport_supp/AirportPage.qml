@@ -2,9 +2,11 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 
 Item {
-    Rectangle {
-        anchors.fill: parent
-        color: "#d3d3d3" // Light gray background
+    Image {
+        //by url to file
+        source: "file:///home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/background1.png"
+        anchors.fill: parent//fill parent(parent is ApplicationWindow(
+        fillMode: Image.PreserveAspectCrop//keep aspect of size if cropped png
     }
 
     // Runway Availability Display
@@ -15,6 +17,7 @@ Item {
         Text {
             text: "Runway Availability:" // Section title
             font.pixelSize: 36 // Font size set to 24
+            font.bold: true     // Bold font for emphasis
             color: "#151818" // Text color
         }
 

@@ -2,9 +2,11 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 
 Item {
-    Rectangle {
-        anchors.fill: parent
-        color: "#87ceeb" // Sky blue background
+    Image {
+        //by url to file
+        source: "file:///home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/background1.png"
+        anchors.fill: parent//fill parent(parent is ApplicationWindow(
+        fillMode: Image.PreserveAspectCrop//keep aspect of size if cropped png
     }
 
     Column {
@@ -14,6 +16,7 @@ Item {
 
         Text {
             text: "In-Flight Assistance"
+            font.bold: true     // Bold font for emphasis
             font.pixelSize: 36
             color: "#151818"
         }
