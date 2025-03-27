@@ -12,6 +12,27 @@ namespace _qt_qml_Airport_supp_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_Airport_supp_AirportPage_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Airport_supp_InTheAirPage_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Airport_supp_AfterLandingPage_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +48,9 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Airport_supp/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_Airport_supp_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Airport_supp/AirportPage.qml"), &QmlCacheGeneratedCode::_qt_qml_Airport_supp_AirportPage_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Airport_supp/InTheAirPage.qml"), &QmlCacheGeneratedCode::_qt_qml_Airport_supp_InTheAirPage_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Airport_supp/AfterLandingPage.qml"), &QmlCacheGeneratedCode::_qt_qml_Airport_supp_AfterLandingPage_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

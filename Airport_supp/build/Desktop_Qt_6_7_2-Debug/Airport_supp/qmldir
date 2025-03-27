@@ -2,4 +2,7 @@ module Airport_supp
 typeinfo appAirport_supp.qmltypes
 prefer :/qt/qml/Airport_supp/
 Main 1.0 Main.qml
+AirportPage 1.0 AirportPage.qml
+InTheAirPage 1.0 InTheAirPage.qml
+AfterLandingPage 1.0 AfterLandingPage.qml
 

@@ -1,6 +1,9 @@
 <RCC>
   <qresource prefix="/qt/qml/Airport_supp/">
     <file alias="Main.qml">/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml</file>
+    <file alias="AirportPage.qml">/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml</file>
+    <file alias="InTheAirPage.qml">/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml</file>
+    <file alias="AfterLandingPage.qml">/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml</file>
   </qresource>
 </RCC>
 

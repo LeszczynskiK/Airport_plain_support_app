@@ -19,6 +19,10 @@ qt_add_qml_module(appAirport_supp
     VERSION 1.0
     QML_FILES
         Main.qml
+        AirportPage.qml
+        InTheAirPage.qml
+        AfterLandingPage.qml
+    SOURCES
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -47,7 +47,7 @@ cmake_ninja_workdir = /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_ai
 #############################################
 # Order-only phony target for appAirport_supp
 
-build cmake_object_order_depends_target_appAirport_supp: phony || .qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp .qt/rcc/qrc_qmake_Airport_supp.cpp .rcc/qmlcache/appAirport_supp_Main_qml.cpp .rcc/qmlcache/appAirport_supp_qmlcache_loader.cpp Airport_supp/appAirport_supp.qmltypes appAirport_supp_autogen appAirport_supp_autogen/mocs_compilation.cpp appAirport_supp_autogen/timestamp appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling appairport_supp_qmltyperegistrations.cpp meta_types/appAirport_supp_json_file_list.txt meta_types/appAirport_supp_json_file_list.txt.timestamp meta_types/qt6appairport_supp_debug_metatypes.json meta_types/qt6appairport_supp_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appAirport_supp: phony || .qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp .qt/rcc/qrc_qmake_Airport_supp.cpp .rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp .rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp .rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp .rcc/qmlcache/appAirport_supp_Main_qml.cpp .rcc/qmlcache/appAirport_supp_qmlcache_loader.cpp Airport_supp/appAirport_supp.qmltypes appAirport_supp_autogen appAirport_supp_autogen/mocs_compilation.cpp appAirport_supp_autogen/timestamp appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling appairport_supp_qmltyperegistrations.cpp meta_types/appAirport_supp_json_file_list.txt meta_types/appAirport_supp_json_file_list.txt.timestamp meta_types/qt6appairport_supp_debug_metatypes.json meta_types/qt6appairport_supp_debug_metatypes.json.gen
 
 build CMakeFiles/appAirport_supp.dir/appAirport_supp_autogen/mocs_compilation.cpp.o: CXX_COMPILER__appAirport_supp_unscanned_Debug /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appAirport_supp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
@@ -97,6 +97,30 @@ build CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/
   OBJECT_DIR = CMakeFiles/appAirport_supp.dir
   OBJECT_FILE_DIR = CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache
 
+build CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp.o: CXX_COMPILER__appAirport_supp_unscanned_Debug /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp || cmake_object_order_depends_target_appAirport_supp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC -pthread
+  INCLUDES = -I/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include -I/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml/6.7.2/QtQml -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/6.7.2/QtCore -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlIntegration -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtNetwork -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQuick -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlModels -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appAirport_supp.dir
+  OBJECT_FILE_DIR = CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache
+
+build CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp.o: CXX_COMPILER__appAirport_supp_unscanned_Debug /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp || cmake_object_order_depends_target_appAirport_supp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC -pthread
+  INCLUDES = -I/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include -I/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml/6.7.2/QtQml -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/6.7.2/QtCore -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlIntegration -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtNetwork -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQuick -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlModels -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appAirport_supp.dir
+  OBJECT_FILE_DIR = CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache
+
+build CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp.o: CXX_COMPILER__appAirport_supp_unscanned_Debug /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp || cmake_object_order_depends_target_appAirport_supp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC -pthread
+  INCLUDES = -I/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include -I/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml/6.7.2/QtQml -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/6.7.2/QtCore -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins/6.7.2 -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlBuiltins -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQml -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlIntegration -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtNetwork -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQuick -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtQmlModels -isystem /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appAirport_supp.dir
+  OBJECT_FILE_DIR = CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache
+
 build CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp.o: CXX_COMPILER__appAirport_supp_unscanned_Debug /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp || cmake_object_order_depends_target_appAirport_supp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp.o.d
@@ -113,7 +137,7 @@ build CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_ap
 #############################################
 # Link the executable appAirport_supp
 
-build appAirport_supp: CXX_EXECUTABLE_LINKER__appAirport_supp_Debug CMakeFiles/appAirport_supp.dir/appAirport_supp_autogen/mocs_compilation.cpp.o CMakeFiles/appAirport_supp.dir/main.cpp.o CMakeFiles/appAirport_supp.dir/appairport_supp_qmltyperegistrations.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_qmake_Airport_supp.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_qmlcache_loader.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_Main_qml.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp.o | /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Quick.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6QmlModels.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Qml.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6QmlBuiltins.a /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Network.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6OpenGL.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
+build appAirport_supp: CXX_EXECUTABLE_LINKER__appAirport_supp_Debug CMakeFiles/appAirport_supp.dir/appAirport_supp_autogen/mocs_compilation.cpp.o CMakeFiles/appAirport_supp.dir/main.cpp.o CMakeFiles/appAirport_supp.dir/appairport_supp_qmltyperegistrations.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_qmake_Airport_supp.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_qmlcache_loader.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_Main_qml.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp.o CMakeFiles/appAirport_supp.dir/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp.o | /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Quick.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6QmlModels.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Qml.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6QmlBuiltins.a /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Network.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6OpenGL.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2 /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/krzysiek89/Qt/6.7.2/gcc_64/lib:  /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Quick.so.6.7.2  /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6QmlModels.so.6.7.2  /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Qml.so.6.7.2  /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6QmlBuiltins.a  /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Network.so.6.7.2  /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6OpenGL.so.6.7.2  /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2  /home/krzysiek89/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2  -pthread  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/appAirport_supp.dir
@@ -174,7 +198,7 @@ build all_qmllint_module: phony appAirport_supp_qmllint_module
 #############################################
 # Utility command for appAirport_supp_tooling
 
-build appAirport_supp_tooling: phony Airport_supp/Main.qml
+build appAirport_supp_tooling: phony Airport_supp/Main.qml Airport_supp/AirportPage.qml Airport_supp/InTheAirPage.qml Airport_supp/AfterLandingPage.qml
 
 
 #############################################
@@ -307,9 +331,36 @@ build .rcc/qmlcache/appAirport_supp_Main_qml.cpp | ${cmake_ninja_workdir}.rcc/qm
 
 
 #############################################
+# Custom command for .rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp
+
+build .rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/libexec/qmlcachegen /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml .qt/rcc/qmake_Airport_supp.qrc .qt/rcc/appAirport_supp_raw_qml_0.qrc Airport_supp/appAirport_supp.qmltypes Airport_supp/qmldir || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
+  COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug && /home/krzysiek89/Qt/Tools/CMake/bin/cmake -E make_directory /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache && /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/qmlcachegen --bare --resource-path /qt/qml/Airport_supp/AirportPage.qml -I /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug -I /home/krzysiek89/Qt/6.7.2/gcc_64/./qml -i /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/qmldir --resource /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_Airport_supp.qrc --resource /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appAirport_supp_raw_qml_0.qrc -o /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml
+  DESC = Generating .rcc/qmlcache/appAirport_supp_AirportPage_qml.cpp
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp
+
+build .rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/libexec/qmlcachegen /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml .qt/rcc/qmake_Airport_supp.qrc .qt/rcc/appAirport_supp_raw_qml_0.qrc Airport_supp/appAirport_supp.qmltypes Airport_supp/qmldir || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
+  COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug && /home/krzysiek89/Qt/Tools/CMake/bin/cmake -E make_directory /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache && /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/qmlcachegen --bare --resource-path /qt/qml/Airport_supp/InTheAirPage.qml -I /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug -I /home/krzysiek89/Qt/6.7.2/gcc_64/./qml -i /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/qmldir --resource /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_Airport_supp.qrc --resource /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appAirport_supp_raw_qml_0.qrc -o /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml
+  DESC = Generating .rcc/qmlcache/appAirport_supp_InTheAirPage_qml.cpp
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp
+
+build .rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/libexec/qmlcachegen /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml .qt/rcc/qmake_Airport_supp.qrc .qt/rcc/appAirport_supp_raw_qml_0.qrc Airport_supp/appAirport_supp.qmltypes Airport_supp/qmldir || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
+  COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug && /home/krzysiek89/Qt/Tools/CMake/bin/cmake -E make_directory /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache && /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/qmlcachegen --bare --resource-path /qt/qml/Airport_supp/AfterLandingPage.qml -I /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug -I /home/krzysiek89/Qt/6.7.2/gcc_64/./qml -i /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/qmldir --resource /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_Airport_supp.qrc --resource /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appAirport_supp_raw_qml_0.qrc -o /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml
+  DESC = Generating .rcc/qmlcache/appAirport_supp_AfterLandingPage_qml.cpp
+  restat = 1
+
+
+#############################################
 # Custom command for .qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml .qt/rcc/appAirport_supp_raw_qml_0.qrc /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/rcc || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
+build .qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml .qt/rcc/appAirport_supp_raw_qml_0.qrc /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/rcc || appAirport_supp_autogen appAirport_supp_autogen_timestamp_deps appAirport_supp_qmlimportscan appAirport_supp_tooling
   COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug && /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/rcc --output /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qrc_appAirport_supp_raw_qml_0.cpp --name appAirport_supp_raw_qml_0 /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appAirport_supp_raw_qml_0.qrc --no-zstd
   DESC = Running rcc for resource appAirport_supp_raw_qml_0
   restat = 1
@@ -344,21 +395,21 @@ build CMakeFiles/appAirport_supp_qmltyperegistration | ${cmake_ninja_workdir}CMa
 #############################################
 # Custom command for CMakeFiles/appAirport_supp_qmllint
 
-build CMakeFiles/appAirport_supp_qmllint | ${cmake_ninja_workdir}CMakeFiles/appAirport_supp_qmllint: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml .rcc/qmllint/appAirport_supp.rsp || all_qmltyperegistrations appAirport_supp_qmltyperegistration
+build CMakeFiles/appAirport_supp_qmllint | ${cmake_ninja_workdir}CMakeFiles/appAirport_supp_qmllint: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml .rcc/qmllint/appAirport_supp.rsp || all_qmltyperegistrations appAirport_supp_qmltyperegistration
   COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint @/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmllint/appAirport_supp.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appAirport_supp_qmllint_json
 
-build CMakeFiles/appAirport_supp_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appAirport_supp_qmllint_json: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml .rcc/qmllint/appAirport_supp_json.rsp || all_qmltyperegistrations appAirport_supp_qmltyperegistration
+build CMakeFiles/appAirport_supp_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appAirport_supp_qmllint_json: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml .rcc/qmllint/appAirport_supp_json.rsp || all_qmltyperegistrations appAirport_supp_qmltyperegistration
   COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint @/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmllint/appAirport_supp_json.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appAirport_supp_qmllint_module
 
-build CMakeFiles/appAirport_supp_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appAirport_supp_qmllint_module: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml .rcc/qmllint/appAirport_supp_module.rsp || all_qmltyperegistrations appAirport_supp_qmltyperegistration
+build CMakeFiles/appAirport_supp_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appAirport_supp_qmllint_module: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml .rcc/qmllint/appAirport_supp_module.rsp || all_qmltyperegistrations appAirport_supp_qmltyperegistration
   COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/6.7.2/gcc_64/bin/qmllint @/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.rcc/qmllint/appAirport_supp_module.rsp
 
 
@@ -372,6 +423,33 @@ build Airport_supp/Main.qml | ${cmake_ninja_workdir}Airport_supp/Main.qml: CUSTO
 
 
 #############################################
+# Custom command for Airport_supp/AirportPage.qml
+
+build Airport_supp/AirportPage.qml | ${cmake_ninja_workdir}Airport_supp/AirportPage.qml: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml
+  COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/Tools/CMake/bin/cmake -E copy /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/AirportPage.qml
+  DESC = Copying AirportPage.qml to /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/AirportPage.qml
+  restat = 1
+
+
+#############################################
+# Custom command for Airport_supp/InTheAirPage.qml
+
+build Airport_supp/InTheAirPage.qml | ${cmake_ninja_workdir}Airport_supp/InTheAirPage.qml: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml
+  COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/Tools/CMake/bin/cmake -E copy /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/InTheAirPage.qml
+  DESC = Copying InTheAirPage.qml to /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/InTheAirPage.qml
+  restat = 1
+
+
+#############################################
+# Custom command for Airport_supp/AfterLandingPage.qml
+
+build Airport_supp/AfterLandingPage.qml | ${cmake_ninja_workdir}Airport_supp/AfterLandingPage.qml: CUSTOM_COMMAND /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml
+  COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/Tools/CMake/bin/cmake -E copy /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/AfterLandingPage.qml
+  DESC = Copying AfterLandingPage.qml to /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/Airport_supp/AfterLandingPage.qml
+  restat = 1
+
+
+#############################################
 # Phony custom command for CMakeFiles/appAirport_supp_qmlimportscan
 
 build CMakeFiles/appAirport_supp_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appAirport_supp_qmlimportscan: phony .qt/qml_imports/appAirport_supp_build.cmake
@@ -380,7 +458,7 @@ build CMakeFiles/appAirport_supp_qmlimportscan | ${cmake_ninja_workdir}CMakeFile
 #############################################
 # Custom command for .qt/qml_imports/appAirport_supp_build.cmake
 
-build .qt/qml_imports/appAirport_supp_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appAirport_supp_build.cmake: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/libexec/qmlimportscanner .qt/rcc/qmake_Airport_supp.qrc .qt/rcc/appAirport_supp_raw_qml_0.qrc /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml
+build .qt/qml_imports/appAirport_supp_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appAirport_supp_build.cmake: CUSTOM_COMMAND /home/krzysiek89/Qt/6.7.2/gcc_64/libexec/qmlimportscanner .qt/rcc/qmake_Airport_supp.qrc .qt/rcc/appAirport_supp_raw_qml_0.qrc /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AirportPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/InTheAirPage.qml /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/AfterLandingPage.qml
   COMMAND = cd /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp && /home/krzysiek89/Qt/6.7.2/gcc_64/./libexec/qmlimportscanner @/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appAirport_supp_build.rsp
   DESC = Running qmlimportscanner for appAirport_supp
   restat = 1
