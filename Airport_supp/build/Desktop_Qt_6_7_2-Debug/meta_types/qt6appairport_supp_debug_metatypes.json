@@ -2,6 +2,51 @@
     {
         "classes": [
             {
+                "className": "AfterLanding",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "parkingGuidance",
+                        "read": "parkingGuidance",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "gateAssignment",
+                        "read": "gateAssignment",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "AfterLanding",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "afterlanding.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "InFlightAssistance",
                 "object": true,
                 "properties": [

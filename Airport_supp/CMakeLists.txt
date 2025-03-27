@@ -16,12 +16,14 @@ set(SOURCES
     main.cpp
     runwaymanager.cpp
     inflightassistance.cpp
+    afterlanding.cpp
 )
 
 # Heading files
 set(HEADERS
     runwaymanager.h
     inflightassistance.h
+    afterlanding.h
 )
 
 qt_add_executable(appAirport_supp

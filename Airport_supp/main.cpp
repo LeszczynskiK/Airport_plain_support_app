@@ -3,6 +3,7 @@
 #include <QQmlContext>//To manate ContextProperty
 #include "runwaymanager.h"
 #include "inflightassistance.h"
+#include "afterlanding.h"
 
 int main(int argc, char *argv[])
 {
@@ -17,6 +18,10 @@ int main(int argc, char *argv[])
     // Register InFlightAssistance with QML
     InFlightAssistance inFlightAssistance;
     engine.rootContext()->setContextProperty("inFlightAssistance", &inFlightAssistance);
+
+    // Register AfterLanding with QML
+    AfterLanding afterLanding;
+    engine.rootContext()->setContextProperty("afterLanding", &afterLanding);
 
 
     QObject::connect(

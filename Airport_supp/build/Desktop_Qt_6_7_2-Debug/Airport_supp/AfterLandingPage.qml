@@ -7,11 +7,44 @@ Item {
         color: "#90ee90" // Light green background
     }
 
-    Text {
-        anchors.centerIn: parent // Center text in the parent item
-        text: "After Landing Page" // Page title
-        font.pixelSize: 40 // Font size set to 40
-        color: "#151818" // Text color
+    Column {
+        x: 50
+        y: 100
+        spacing: 15
+
+        Text {
+            text: "Parking Guidance:"
+            font.pixelSize: 32
+            color: "#151818"
+        }
+
+        Row {
+            spacing: 5 // Small spacing between the label and the value
+            Text {
+                text: "Your Terminal is: "
+                font.pixelSize: 30
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: afterLanding.parkingGuidance
+                font.pixelSize: 32
+                color: "#FF0000" // Red color for the value
+            }
+        }
+
+        Row {
+            spacing: 5 // Small spacing between the label and the value
+            Text {
+                text: "Go to gate: "
+                font.pixelSize: 30
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: afterLanding.gateAssignment
+                font.pixelSize: 32
+                color: "#FF0000" // Red color for the value
+            }
+        }
     }
 
     Button {

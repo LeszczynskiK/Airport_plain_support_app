@@ -796,6 +796,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/afterlanding.h",
+			"MU",
+			"EWIEGA46WW/moc_afterlanding.cpp",
+			null
+		],
+		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/inflightassistance.h",
 			"MU",
 			"EWIEGA46WW/moc_inflightassistance.cpp",
@@ -901,6 +907,11 @@
 	"SETTINGS_FILE" : "/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/appAirport_supp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/afterlanding.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/inflightassistance.cpp",
 			"MU",
