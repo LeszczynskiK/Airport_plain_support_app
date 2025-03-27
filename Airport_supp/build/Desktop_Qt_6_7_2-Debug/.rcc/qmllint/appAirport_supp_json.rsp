@@ -1,0 +1,12 @@
+--bare
+-I
+/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug
+-I
+/home/krzysiek89/Qt/6.7.2/gcc_64/./qml
+--resource
+/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_Airport_supp.qrc
+--resource
+/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appAirport_supp_raw_qml_0.qrc
+/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/Main.qml
+--json
+/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_qmllint.json
