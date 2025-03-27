@@ -7,13 +7,6 @@ Item {
         color: "#d3d3d3" // Light gray background
     }
 
-    Text {
-        anchors.centerIn: parent // Center text in the parent item
-        text: "Airport Page" // Page title
-        font.pixelSize: 40 // Font size set to 40
-        color: "#151818" // Text color
-    }
-
     // Runway Availability Display
     Column {
         x: 50 // X coordinate
@@ -21,7 +14,7 @@ Item {
         spacing: 20 // Space between items
         Text {
             text: "Runway Availability:" // Section title
-            font.pixelSize: 24 // Font size set to 24
+            font.pixelSize: 36 // Font size set to 24
             color: "#151818" // Text color
         }
 
@@ -29,14 +22,14 @@ Item {
         Row {
             spacing: 10 // Space between circle and text
             Rectangle {
-                width: 20 // Circle width
-                height: 20 // Circle height
-                radius: 10 // Make it a circle
+                width: 30 // Circle width
+                height: 30 // Circle height
+                radius: 15 // Make it a circle
                 color: runwayManager.runway1Occupied ? "#FF0000" : "#008000" // Red for occupied, green for free
             }
             Text {
                 text: "Runway 1: " + (runwayManager.runway1Occupied ? "Occupied" : "Free") // Display runway status
-                font.pixelSize: 20 // Font size set to 20
+                font.pixelSize: 32 // Font size set to 32
                 color: "#151818" // Text color
                 anchors.verticalCenter: parent.verticalCenter // Align text vertically with circle
             }
@@ -46,14 +39,14 @@ Item {
         Row {
             spacing: 10 // Space between circle and text
             Rectangle {
-                width: 20 // Circle width
-                height: 20 // Circle height
-                radius: 10 // Make it a circle
+                width: 30 // Circle width
+                height: 30 // Circle height
+                radius: 15 // Make it a circle
                 color: runwayManager.runway2Occupied ? "#FF0000" : "#008000" // Red for occupied, green for free
             }
             Text {
                 text: "Runway 2: " + (runwayManager.runway2Occupied ? "Occupied" : "Free") // Display runway status
-                font.pixelSize: 20 // Font size set to 20
+                font.pixelSize: 32 // Font size set to 32
                 color: "#151818" // Text color
                 anchors.verticalCenter: parent.verticalCenter // Align text vertically with circle
             }
@@ -63,19 +56,50 @@ Item {
         Row {
             spacing: 10 // Space between circle and text
             Rectangle {
-                width: 20 // Circle width
-                height: 20 // Circle height
-                radius: 10 // Make it a circle
+                width: 30 // Circle width
+                height: 30 // Circle height
+                radius: 15 // Make it a circle
                 color: runwayManager.runway3Occupied ? "#FF0000" : "#008000" // Red for occupied, green for free
             }
             Text {
                 text: "Runway 3: " + (runwayManager.runway3Occupied ? "Occupied" : "Free") // Display runway status
-                font.pixelSize: 20 // Font size set to 20
+                font.pixelSize: 32 // Font size set to 20
                 color: "#151818" // Text color
                 anchors.verticalCenter: parent.verticalCenter // Align text vertically with circle
             }
         }
     }
+
+    // Takeoff Clearance Indicator
+        Rectangle {
+            x: 50
+            y: 400
+            width: 200
+            height: 50
+            color: runwayManager.takeoffClearance ? "#008000" : "#FF0000" // Green for free, red for not clear
+            radius: 15 //Make if circle
+            Text {
+                anchors.centerIn: parent
+                text: runwayManager.takeoffClearance ? "You can fly now!" : "Stay and don't move" // If line clear...
+                font.pixelSize: 20
+                color: "#FFFFFF"
+            }
+        }
+
+        // Runway Guidance
+        Column {
+            x: 50
+            y: 500
+            spacing: 5
+            Text {
+                text: runwayManager.recommendedRunway //Put here hext based on function to choose line to fly off
+                font.pixelSize: 32
+                color: "#151818"
+                width: 400  // Ensure text doesn't get cut off
+                wrapMode: Text.WordWrap  // Wrap text if too long
+            }
+        }
+
 
     Button {
         text: "Back" // Button label

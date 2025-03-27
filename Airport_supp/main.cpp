@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     RunwayManager runwayManager;
     engine.rootContext()->setContextProperty("runwayManager", &runwayManager);
 
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,

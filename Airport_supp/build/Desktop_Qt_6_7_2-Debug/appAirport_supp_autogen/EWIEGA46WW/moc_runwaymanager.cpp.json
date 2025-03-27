@@ -42,9 +42,49 @@
                     "stored": true,
                     "type": "bool",
                     "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "takeoffClearance",
+                    "notify": "takeoffClearanceChanged",
+                    "read": "takeoffClearance",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "recommendedRunway",
+                    "notify": "recommendedRunwayChanged",
+                    "read": "recommendedRunway",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
                 }
             ],
             "qualifiedClassName": "RunwayManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "takeoffClearanceChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "recommendedRunwayChanged",
+                    "returnType": "void"
+                }
+            ],
             "superClasses": [
                 {
                     "access": "public",
