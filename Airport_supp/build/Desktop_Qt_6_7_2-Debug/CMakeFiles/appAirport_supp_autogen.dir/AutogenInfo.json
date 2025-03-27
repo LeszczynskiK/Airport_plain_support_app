@@ -793,7 +793,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appAirport_supp_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/runwaymanager.h",
+			"MU",
+			"EWIEGA46WW/moc_runwaymanager.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/mocs_compilation.cpp",
@@ -889,6 +897,11 @@
 	[
 		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/runwaymanager.cpp",
 			"MU",
 			null
 		]

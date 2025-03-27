@@ -10,8 +10,20 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
-qt_add_executable(appAirport_supp
+
+#Sources
+set(SOURCES
     main.cpp
+    runwaymanager.cpp
+)
+
+# Heading files
+set(HEADERS
+    runwaymanager.h
+)
+
+qt_add_executable(appAirport_supp
+     ${SOURCES} ${HEADERS}
 )
 
 qt_add_qml_module(appAirport_supp
@@ -22,7 +34,6 @@ qt_add_qml_module(appAirport_supp
         AirportPage.qml
         InTheAirPage.qml
         AfterLandingPage.qml
-    SOURCES
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

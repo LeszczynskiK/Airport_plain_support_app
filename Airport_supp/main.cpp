@@ -1,5 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>//To manate ContextProperty
+#include "runwaymanager.h"
 
 int main(int argc, char *argv[])
 {
@@ -7,6 +9,9 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;// Create a QML engine to load the interface
 
+    // Register RunwayManager with QML
+    RunwayManager runwayManager;
+    engine.rootContext()->setContextProperty("runwayManager", &runwayManager);
 
     QObject::connect(
         &engine,
