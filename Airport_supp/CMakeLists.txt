@@ -38,6 +38,7 @@ qt_add_qml_module(appAirport_supp
         AirportPage.qml
         InTheAirPage.qml
         AfterLandingPage.qml
+        SOURCES weatherconditiondisplay.h weatherconditiondisplay.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

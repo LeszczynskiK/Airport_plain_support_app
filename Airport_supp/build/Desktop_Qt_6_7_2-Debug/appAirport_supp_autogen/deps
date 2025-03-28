@@ -12,6 +12,8 @@ appAirport_supp_autogen/timestamp: \
 	/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/main.cpp \
 	/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/runwaymanager.cpp \
 	/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/runwaymanager.h \
+	/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/weatherconditiondisplay.cpp \
+	/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/weatherconditiondisplay.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QObject \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/q20functional.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/q20memory.h \

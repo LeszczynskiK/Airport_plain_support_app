@@ -812,6 +812,12 @@
 			"MU",
 			"EWIEGA46WW/moc_runwaymanager.cpp",
 			null
+		],
+		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/weatherconditiondisplay.h",
+			"MU",
+			"EWIEGA46WW/moc_weatherconditiondisplay.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -924,6 +930,11 @@
 		],
 		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/runwaymanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/weatherconditiondisplay.cpp",
 			"MU",
 			null
 		]

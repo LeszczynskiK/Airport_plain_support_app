@@ -64,6 +64,78 @@ Item {
         }
     }
 
+    // Flight Path Guidance Section
+    Column {
+        x: 650
+        y: 60
+        spacing: 10
+        Text {
+            text: "Flight Path Guidance:"
+            font.pixelSize: 36
+            font.bold: true
+            color: "#151818"
+        }
+        Row {
+            spacing: 5
+            Text {
+                text: "Coordinates: "
+                font.pixelSize: 28
+                color: "#151818"
+            }
+            Text {
+                text: inFlightAssistance.latitude + ", " + inFlightAssistance.longitude
+                font.pixelSize: 28
+                color: "#FF0000"
+            }
+        }
+        Row {
+            spacing: 5
+            Text {
+                text: "Direction: "
+                font.pixelSize: 28
+                color: "#151818"
+            }
+            Text {
+                text: inFlightAssistance.direction + "°"
+                font.pixelSize: 28
+                color: "#FF0000"
+            }
+        }
+        Text {
+            text: inFlightAssistance.guidanceMessage
+            font.pixelSize: 24
+            color: "#151818"
+            width: 400
+            wrapMode: Text.WordWrap
+        }
+    }
+
+    // Air Traffic Awareness Section
+    Column {
+        x: 650
+        y: 300
+        spacing: 10
+        Text {
+            text: "Air Traffic Awareness:"
+            font.pixelSize: 36
+            font.bold: true
+            color: "#151818"
+        }
+        Rectangle {
+            width: 560
+            height: 420
+            color: "transparent"
+            border.color: "#151818"
+            border.width: 2
+            Image {
+                anchors.fill: parent
+                anchors.margins: 5
+                source: "file:///home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/radar1.png"
+                fillMode: Image.PreserveAspectFit
+            }
+        }
+    }
+
     Button {
         text: "Back" // Button label
         x: 20 // X coordinate
