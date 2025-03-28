@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2b35101600c4e919bbe6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Airport_supp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-ba73852b2258dcb1a0f1.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-fa934086d66764147384.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-fd91521dda5a3b4ba43d.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6ba5544a977284c0c5c6.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp-Debug-f94ea34e7a3c447e9f39.json",
+					"name" : "appAirport_supp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp_autogen-Debug-5ebacf138cb16ed22585.json",
+					"name" : "appAirport_supp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp_autogen_timestamp_deps-Debug-d1d5e10153f8d6b75efe.json",
+					"name" : "appAirport_supp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp_qmlimportscan-Debug-3844b1309cb8ac6be5a8.json",
+					"name" : "appAirport_supp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp_qmllint-Debug-851499b75b8b8cff40e6.json",
+					"name" : "appAirport_supp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp_qmllint_json-Debug-82a9594671845dd91df9.json",
+					"name" : "appAirport_supp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp_qmllint_module-Debug-b7e1188dd192a481d811.json",
+					"name" : "appAirport_supp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp_qmltyperegistration-Debug-e3ca7b5646cffd889792.json",
+					"name" : "appAirport_supp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appAirport_supp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appAirport_supp_tooling-Debug-29722a652f07b301e7e1.json",
+					"name" : "appAirport_supp_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug",
+		"source" : "/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

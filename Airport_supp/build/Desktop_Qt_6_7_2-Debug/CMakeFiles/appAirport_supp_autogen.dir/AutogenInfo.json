@@ -808,6 +808,12 @@
 			null
 		],
 		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/preflightinfo.h",
+			"MU",
+			"EWIEGA46WW/moc_preflightinfo.cpp",
+			null
+		],
+		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/runwaymanager.h",
 			"MU",
 			"EWIEGA46WW/moc_runwaymanager.cpp",
@@ -925,6 +931,11 @@
 		],
 		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/preflightinfo.cpp",
 			"MU",
 			null
 		],

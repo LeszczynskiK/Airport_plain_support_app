@@ -16,7 +16,13 @@ Features:
 - Takeoff Clearance Indicator: Notifies pilots when they are allowed to take off  
 - Runway Guidance: Provides instructions on which runway to proceed to  
 - Weather Conditions Display: Provides simulated weather information affecting flights  
-  
+- Displays the filed flight plan, including departure airport, destination, alternate airports,         
+estimated time of departure (ETD), and estimated time en route (ETE)        
+- NOTAMs (Notices to Airmen) Display: Shows relevant NOTAMs for the departure airport, such as runway closures,        
+taxiway restrictions, or airspace warnings. This ensures pilots are aware of any last-minute changes or hazards 
+- Fuel and Load Information: Provides details on fuel load, passenger count,    
+cargo weight, and center of gravity (CG) calculations   
+
 2. In the Air Page  
 - In-Flight Assistance: Displays altitude, speed, and heading information for pilots  
 - Flight Path Guidance: Assists in maintaining the correct flight trajectory  

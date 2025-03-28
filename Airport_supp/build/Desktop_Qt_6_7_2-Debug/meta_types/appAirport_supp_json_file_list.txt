@@ -1,4 +1,5 @@
 /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include/../EWIEGA46WW/moc_afterlanding.cpp.json
 /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include/../EWIEGA46WW/moc_inflightassistance.cpp.json
+/home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include/../EWIEGA46WW/moc_preflightinfo.cpp.json
 /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include/../EWIEGA46WW/moc_runwaymanager.cpp.json
 /home/krzysiek89/Desktop/QT_aplikacje/Plane_support_app_airport_visualisation/Airport_supp/build/Desktop_Qt_6_7_2-Debug/appAirport_supp_autogen/include/../EWIEGA46WW/moc_weatherconditiondisplay.cpp.json

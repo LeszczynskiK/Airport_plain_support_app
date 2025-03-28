@@ -135,6 +135,43 @@ Item {
         }
     }
 
+    // Additional Information Section (Flight Plan, NOTAMs, Fuel/Load)
+    Column {
+        x: 700
+        y: 400
+        spacing: 15
+        Text {
+            text: "Pre-Flight Information:\n"
+            font.pixelSize: 36
+            font.bold: true
+            color: "#151818"
+        }
+        // Flight Plan Overview
+        Text {
+            text: "Flight Plan: \n" + preFlightInfo.flightPlan
+            font.pixelSize: 28
+            color: "#151818"
+            width: 500
+            wrapMode: Text.WordWrap
+        }
+        // NOTAMs Display
+        Text {
+            text: "NOTAMs: \n" + preFlightInfo.notams
+            font.pixelSize: 28
+            color: "#FF0000" // Red to highlight importance
+            width: 500
+            wrapMode: Text.WordWrap
+        }
+        // Fuel and Load Information
+        Text {
+            text: "Fuel: " + preFlightInfo.fuelLoad + " kg, Passengers: " + preFlightInfo.passengerCount
+            font.pixelSize: 28
+            color: "#151818"
+            width: 500
+            wrapMode: Text.WordWrap
+        }
+    }
+
 
     Button {
         text: "Back" // Button label

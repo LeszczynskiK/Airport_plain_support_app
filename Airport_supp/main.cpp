@@ -5,6 +5,7 @@
 #include "inflightassistance.h"
 #include "afterlanding.h"
 #include "weatherconditiondisplay.h"
+#include "preflightinfo.h"
 
 int main(int argc, char *argv[])
 {
@@ -27,6 +28,10 @@ int main(int argc, char *argv[])
     // Register WeatherConditionsDisplay with QML
     WeatherConditionsDisplay weatherConditions;
     engine.rootContext()->setContextProperty("weatherConditions", &weatherConditions);
+
+     // Register PreFlightInfo with QML
+    PreFlightInfo preFlightInfo;
+    engine.rootContext()->setContextProperty("preFlightInfo", &preFlightInfo);
 
     QObject::connect(
         &engine,
