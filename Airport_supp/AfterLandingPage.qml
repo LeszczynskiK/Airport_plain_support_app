@@ -127,6 +127,61 @@ Item {
         }
     }
 
+    // Flight Status Section: Displays current time, delay status, and remaining fuel
+    Column {
+        x: 600 // X position of the column
+        y: 100 // Y position of the column
+        spacing: 15 // Space between elements in the column
+        Text {
+            text: "Flight Status:"
+            font.pixelSize: 36 // Font size for the title
+            font.bold: true // Bold font for emphasis
+            color: "#151818" // Black text color
+        }
+        // Row for displaying the current time
+        Row {
+            spacing: 5 // Space between label and value
+            Text {
+                text: "Current Time: "
+                font.pixelSize: 28 // Font size for the label
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: afterLanding.currentTime // Display current time from AfterLanding
+                font.pixelSize: 28 // Font size for the value
+                color: "#FF0000" // Red color for the value
+            }
+        }
+        // Row for displaying delay status
+        Row {
+            spacing: 5 // Space between label and value
+            Text {
+                text: "Delay Status: "
+                font.pixelSize: 28 // Font size for the label
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: afterLanding.delayStatus // Display delay status from AfterLanding
+                font.pixelSize: 28 // Font size for the value
+                color: afterLanding.hasDelay ? "#FF0000" : "#008000" // Red if delayed, green if on time
+            }
+        }
+        // Row for displaying remaining fuel
+        Row {
+            spacing: 5 // Space between label and value
+            Text {
+                text: "Remaining Fuel: "
+                font.pixelSize: 28 // Font size for the label
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: afterLanding.remainingFuel + " kg" // Display remaining fuel from AfterLanding
+                font.pixelSize: 28 // Font size for the value
+                color: "#FF0000" // Red color for the value
+            }
+        }
+    }
+
     Button {
         text: "Back" // Button label
         x: 20 // X coordinate

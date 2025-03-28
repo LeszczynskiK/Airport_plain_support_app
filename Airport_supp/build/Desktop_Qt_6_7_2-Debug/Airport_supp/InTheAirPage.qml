@@ -136,6 +136,71 @@ Item {
         }
     }
 
+    // En-Route Information Section: Displays fuel, turbulence alerts, and ETA
+    Column {
+        x: 50 // X position of the column
+        y: 370 // Y position of the column
+        spacing: 10 // Space between elements in the column
+        Text {
+            text: "En-Route Information:"
+            font.pixelSize: 36 // Font size for the title
+            font.bold: true // Bold font for emphasis
+            color: "#151818" // Black text color
+        }
+        // Row for displaying remaining fuel
+        Row {
+            spacing: 5 // Space between label and value
+            Text {
+                text: "Remaining Fuel: "
+                font.pixelSize: 28 // Font size for the label
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: inFlightAssistance.remainingFuel + " kg" // Display remaining fuel
+                font.pixelSize: 32 // Font size for the value
+                color: "#FF0000" // Red color for the value
+            }
+        }
+        // Turbulence alert message
+        Text {
+            text: inFlightAssistance.turbulenceAlert // Display turbulence alert message
+            font.pixelSize: 36 // Font size for the message
+            color: "#FF0000" // Red color for warnings
+            width: 400 // Width to allow wrapping
+            wrapMode: Text.WordWrap // Wrap text if too long
+            visible: inFlightAssistance.hasTurbulenceAlert // Only show if there's an alert
+        }
+        // Row for displaying distance to destination
+        Row {
+            spacing: 5 // Space between label and value
+            Text {
+                text: "Distance to Dest: "
+                font.pixelSize: 32 // Font size for the label
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: inFlightAssistance.distanceToDestination + " km" // Display distance to destination
+                font.pixelSize: 32 // Font size for the value
+                color: "#FF0000" // Red color for the value
+            }
+        }
+        // Row for displaying estimated time of arrival (ETA)
+        Row {
+            spacing: 5 // Space between label and value
+            Text {
+                text: "ETA: "
+                font.pixelSize: 32 // Font size for the label
+                color: "#151818" // Black color for the label
+            }
+            Text {
+                text: inFlightAssistance.eta // Display ETA
+                font.pixelSize: 32 // Font size for the value
+                color: "#FF0000" // Red color for the value
+            }
+        }
+    }
+
+
     Button {
         text: "Back" // Button label
         x: 20 // X coordinate

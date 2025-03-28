@@ -27,11 +27,17 @@ cargo weight, and center of gravity (CG) calculations
 - In-Flight Assistance: Displays altitude, speed, and heading information for pilots  
 - Flight Path Guidance: Assists in maintaining the correct flight trajectory  
 - Air Traffic Awareness: Simulates nearby aircraft positions to improve situational awareness  
+- Fuel Monitoring: Displays remaining fuel and estimated fuel at destination
+- Turbulence Alerts: Provides warnings about potential turbulence based on weather data, with suggestions for altitude or route adjustments
+- ETA and Distance to Destination: Shows the estimated time of arrival (ETA) and remaining distance to the destination airport
   
 3. After Landing Page  
 - Parking Guidance: Provides directions to park terminals    
 - Gate Assignment Notification: Informs pilots of the designated gate for parking    
-- Post-Landing Checklist: Displays necessary actions after landing    
+- Post-Landing Checklist: Displays necessary actions after landing  
+- Current Time: Displays the current time   
+- Delay Status: Indicates if the flight was delayed, with a color-coded message (red for delayed, green for on time)
+- Remaining Fuel: Shows the amount of fuel remaining after landing 
   
 !!!  
 This project is part of a theoretical study and does not reflect real aviation systems.  

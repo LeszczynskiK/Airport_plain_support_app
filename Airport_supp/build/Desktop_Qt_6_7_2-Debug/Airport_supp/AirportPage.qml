@@ -157,7 +157,7 @@ Item {
         // NOTAMs Display
         Text {
             text: "NOTAMs: \n" + preFlightInfo.notams
-            font.pixelSize: 28
+            font.pixelSize: 36
             color: "#FF0000" // Red to highlight importance
             width: 500
             wrapMode: Text.WordWrap

@@ -33,6 +33,22 @@ class InFlightAssistance : public QObject {
     // Property for guidance message, readable via guidanceMessage(), constant
     Q_PROPERTY(QString guidanceMessage READ guidanceMessage CONSTANT)
 
+    // Property for remaining fuel in kg, readable via remainingFuel(), constant
+    Q_PROPERTY(int remainingFuel READ remainingFuel CONSTANT)
+
+    // Property for turbulence alert message, readable via turbulenceAlert(), constant
+    Q_PROPERTY(QString turbulenceAlert READ turbulenceAlert CONSTANT)
+
+    // Property for turbulence alert flag, readable via hasTurbulenceAlert(), constant
+    Q_PROPERTY(bool hasTurbulenceAlert READ hasTurbulenceAlert CONSTANT)
+
+    // Property for distance to destination in km, readable via distanceToDestination(), constant
+    Q_PROPERTY(int distanceToDestination READ distanceToDestination CONSTANT)
+
+    // Property for estimated time of arrival (ETA), readable via eta(), constant
+    Q_PROPERTY(QString eta READ eta CONSTANT)
+
+
 
 
 public:
@@ -47,6 +63,12 @@ public:
     double direction(); // Getter for direction in degrees
     QString guidanceMessage(); // Getter for guidance message
 
+    int remainingFuel();// Getter for remaining fuel: returns the remaining fuel in kg
+    QString turbulenceAlert(); // Getter for turbulence alert: returns the turbulence alert message
+    bool hasTurbulenceAlert();    // Getter for turbulence alert flag: returns true if there's a turbulence alert
+    int distanceToDestination();    // Getter for distance to destination: returns the distance to destination in km
+    QString eta();    // Getter for ETA: returns the estimated time of arrival
+
 private:
     double m_altitude; // Stores altitude in meters
     double m_speed; // Stores speed in km/h
@@ -55,6 +77,11 @@ private:
     double m_longitude; // Stores longitude coordinate
     double m_direction; // Stores direction in degrees
     QString m_guidanceMessage; // Stores guidance message for flight path
+    int m_remainingFuel; // Stores remaining fuel in kg
+    QString m_turbulenceAlert; // Stores turbulence alert message
+    bool m_hasTurbulenceAlert; // Flag indicating if a turbulence alert is active
+    int m_distanceToDestination; // Stores distance to destination in km
+    QString m_eta; // Stores estimated time of arrival (ETA)
 };
 
 #endif // INFLIGHTASSISTANCE_H
